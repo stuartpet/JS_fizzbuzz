@@ -40,8 +40,8 @@ describe('Fizzbuzz', function() {
 
 describe('when playing, says', function() {
 
-  it('"Fizz" when a number is divisible by 3', function() {
-    expect(fizzbuzz.says(3)).toEqual("Fizz");
+  it('"Fizz" when a number is divisible by 15', function() {
+    expect(fizzbuzz.says(15)).toEqual("Fizzbuzz");
   });
 
   it('"Buzz" when a number is divisible by 5', function() {
@@ -49,7 +49,7 @@ describe('when playing, says', function() {
 });
 
 it('"Fizzbuzz" when a number is divisible by 15', function() {
-  expect(fizzbuzz.says(15)).toEqual("Fizz");
+  expect(fizzbuzz.says(3)).toEqual("Fizz");
 });
 });
 });
